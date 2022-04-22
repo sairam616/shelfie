@@ -9,18 +9,27 @@ import Foundation
 import Firebase
 
 struct User {
-
-    let uid: String //id
-    let email: String //email
     
-    init(authData: Firebase.User) {
-
-        uid = authData.uid
-        email = authData.email!
-    }
+    let firstname: String
+    let lastname: String
+    let email: String 
     
-    init(uid: String, email: String) {
-        self.uid = uid
+   
+    init(firstname: String,lastname: String, email: String) {
+        
+        self.firstname = firstname
+        self.lastname = lastname
         self.email = email
     }
+    func toUserObject() -> Any {
+        return [
+            "firstname": firstname,
+            "lastname": lastname,
+            "email" : email
+        ]
+    }
 }
+
+
+
+

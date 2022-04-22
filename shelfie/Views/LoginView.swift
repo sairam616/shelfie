@@ -85,8 +85,6 @@ struct LoginView: View {
                     MainView()
                 }
             label: {
-                
-           
                 ButtonView(text: "LOGIN"){
                     print("Inside login Function!!!!--------")
                     Auth.auth().addStateDidChangeListener { auth, user in
@@ -110,9 +108,7 @@ struct LoginView: View {
                                 }
                                 print("Signin Success");
                                 MainView()
-                                
                             }
-                
                         }
                         else{
                             showingAlert = true

@@ -40,7 +40,7 @@
 		469FC06127EE70EF003E1D01 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469FC06027EE70EF003E1D01 /* CustomTextField.swift */; };
 		469FC06A27EE97FA003E1D01 /* PlaceHolderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469FC06927EE97FA003E1D01 /* PlaceHolderStyle.swift */; };
 		469FC06C27EEA904003E1D01 /* CustomCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469FC06B27EEA904003E1D01 /* CustomCards.swift */; };
-		A2B069C528122AD3007F2339 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B069C428122AD3007F2339 /* User.swift */; };
+		A2B069C7281244DF007F2339 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B069C6281244DF007F2339 /* User.swift */; };
 		A2BA4727280E036C0050DF34 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA4726280E036C0050DF34 /* ImagePicker.swift */; };
 		A2BA472F280E5C520050DF34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2BA472E280E5C520050DF34 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -74,7 +74,7 @@
 		469FC06027EE70EF003E1D01 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		469FC06927EE97FA003E1D01 /* PlaceHolderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderStyle.swift; sourceTree = "<group>"; };
 		469FC06B27EEA904003E1D01 /* CustomCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCards.swift; sourceTree = "<group>"; };
-		A2B069C428122AD3007F2339 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A2B069C6281244DF007F2339 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A2BA4726280E036C0050DF34 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		A2BA472E280E5C520050DF34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,7 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				2554D96627EE519E00AE50C7 /* ScaleFactor.swift */,
-				A2B069C428122AD3007F2339 /* User.swift */,
+				A2B069C6281244DF007F2339 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2B069C528122AD3007F2339 /* User.swift in Sources */,
+				A2B069C7281244DF007F2339 /* User.swift in Sources */,
 				469FC05B27EE5393003E1D01 /* Routing.swift in Sources */,
 				2516996627EED60F00294C08 /* MainView.swift in Sources */,
 				A2BA4727280E036C0050DF34 /* ImagePicker.swift in Sources */,
